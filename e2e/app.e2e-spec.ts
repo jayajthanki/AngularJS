@@ -1,10 +1,10 @@
-import { AppPage } from './app.po';
+import { UnoCardPage } from './app.po';
 
-describe('ajs App', () => {
-  let page: AppPage;
+describe('uno-card App', () => {
+  let page: UnoCardPage;
 
   beforeEach(() => {
-    page = new AppPage();
+    page = new UnoCardPage();
   });
 
   it('should display welcome message', () => {
